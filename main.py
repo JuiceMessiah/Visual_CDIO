@@ -1,10 +1,10 @@
 import cv2 as cv
 from matplotlib import pyplot as plt
 
-cap = cv.VideoCapture(0)
+cap = cv.VideoCapture(1)
 if not cap.isOpened():
     print("Cannot open camera")
-    print("mark er WACK")
+    print("mark er SEJ")
     exit()
 
 while True:
