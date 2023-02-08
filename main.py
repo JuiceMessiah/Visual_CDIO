@@ -4,7 +4,9 @@ from matplotlib import pyplot as plt
 cap = cv.VideoCapture(0)
 if not cap.isOpened():
     print("Cannot open camera")
+    print("mark er WACK")
     exit()
+
 while True:
     # Capture frame-by-frame
     ret, frame = cap.read()
@@ -21,3 +23,4 @@ while True:
 # When everything done, release the capture
 cap.release()
 cv.destroyAllWindows()
+
